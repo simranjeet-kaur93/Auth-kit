@@ -1,0 +1,5 @@
+export const AUTH_TTL = {
+  EMAIL_VERIFICATION_SECONDS: 60 * 60 * 24,
+  MFA_CHALLENGE_SECONDS: 60 * 5,
+  REFRESH_TOKEN_SECONDS: 60 * 60 * 24 * 7,
+} as const;
